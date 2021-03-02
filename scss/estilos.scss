@@ -1,4 +1,48 @@
+$principal : red;
+$texto: rgb(55, 39, 97);
+
 html
 {
     font-size: 14px;
+}
+
+.card:hover
+{
+    box-shadow: 0 0 10px rgba(59, 56, 56, 0.274);
+}
+
+.bg-primary
+{
+    background-color: $principal!important;
+}
+.text-primary
+{
+    color: $texto!important;
+}
+
+.btn-primary
+{
+    color: #fff;
+    background-color: $principal!important;
+    border-color: darken($color: $principal, $amount: 20%) !important;
+
+}
+.btn-primary:hover, .btn-primary:focus
+{
+    background-color: darken($color: $principal, $amount: 8%) !important;
+    box-shadow: 0 0 0 0.25rem rgba(253, 73, 49, 0.5);
+}
+
+.btn-primary:active
+{
+    background-color: darken($color: $principal, $amount: 14%) !important;
+    border-color: darken($color: $principal, $amount: 25%) !important;
+}
+
+@media (min-width : 768px)
+{
+  html
+  {
+    font-size: 18px;
+  }
 }

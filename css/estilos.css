@@ -1,4 +1,32 @@
 html {
   font-size: 14px; }
 
+.card:hover {
+  -webkit-box-shadow: 0 0 10px rgba(59, 56, 56, 0.274);
+          box-shadow: 0 0 10px rgba(59, 56, 56, 0.274); }
+
+.bg-primary {
+  background-color: red !important; }
+
+.text-primary {
+  color: #372761 !important; }
+
+.btn-primary {
+  color: #fff;
+  background-color: red !important;
+  border-color: #990000 !important; }
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #d60000 !important;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(253, 73, 49, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(253, 73, 49, 0.5); }
+
+.btn-primary:active {
+  background-color: #b80000 !important;
+  border-color: maroon !important; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px; } }
+
 /*# sourceMappingURL=estilos.css.map */
